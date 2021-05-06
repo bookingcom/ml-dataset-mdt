@@ -1,10 +1,13 @@
-
+## Intro
+----------------------
 Booking.com provides a unique dataset based on millions of real anonymized bookings to encourage the research on sequential recommendation problems.
 Many travelers go on trips which include more than one destination. Our mission at Booking.com is to make it easier for everyone to experience the world, and we can help to do that by providing real-time recommendations for what their next in-trip destination will be. By making accurate predictions, we help deliver a frictionless trip planning experience.
-Teams are encouraged to compete and submit their trip predictions before January 28th 2021 to qualify for WSDM WebTour challenge.
-
 The main challenge is to use a dataset based on millions of real anonymized accommodation reservations to come up with a strategy for making the best recommendation for their next destination in real-time.
 
+For more details, please refer to [Booking.com challenge website](https://www.bookingchallenge.com/) and the [Booking.ai blog](https://booking.ai/).
+
+
+![Multi-Destination Trip recommendation bar at booking.com](https://github.com/bookingcom/ml-dataset-mdt/blob/main/mlt_example.jpg)
 
 ## Dataset
 -------------------
