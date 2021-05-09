@@ -4,9 +4,6 @@ Booking.com provides a unique dataset based on millions of real anonymized booki
 Many travelers go on trips which include more than one destination. Our mission at Booking.com is to make it easier for everyone to experience the world, and we can help to do that by providing real-time recommendations for what their next in-trip destination will be. By making accurate predictions, we help deliver a frictionless trip planning experience.
 The main challenge is to use a dataset based on millions of real anonymized accommodation reservations to come up with a strategy for making the best recommendation for their next destination in real-time.
 
-For more details, please refer to [Booking.com challenge website](https://www.bookingchallenge.com/) and the [Booking.ai blog](https://booking.ai/).
-
-
 ![Multi-Destination Trip recommendation bar at booking.com](https://github.com/bookingcom/ml-dataset-mdt/blob/main/mlt_example.jpg)
 
 ## Dataset
@@ -26,9 +23,25 @@ Each reservation is a part of a customer's trip (identified by utrip_id) which i
 The evaluation dataset is constructed similarly (378,667 reservations), however the city_id (and the country) of the final reservation of each trip is concealed and requires a prediction.
 
 
-## Evaluation Criteria
+
+## Citing
 ----------------------
-The main challenge is to predict (and recommend) the final city (city_id) of each trip (utrip_id). The quality of the predictions is evaluated based on the top four recommended cities for each trip by using Accuracy@Top 4 metric (4 representing the four suggestion slots at Booking.com website). When the true city is one of the top 4 suggestions (regardless of the order), it is considered correct.
+Booking.com Multi-Destination Trips Dataset is published as a [resource paper at SIGIR '21](https://doi.org/10.1145/3404835.3463240). Please refer to dataset in research publications in the following format:
+
+*Dmitri Goldenberg and Pavel Levin. 2021. Booking.com Multi-Destination Trips Dataset. In Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR ’21), July 11–15, 2021, Virtual Event, Canada.* 
+
+#### BibTex:
+```
+@inproceedings{goldenberg2021dataset,
+ author =    {Goldenberg, Dmitri  and Levin, Pavel},
+ title =     {Booking.com Multi-Destination Trips Dataset},
+ booktitle = {Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR ’21)},
+ year =      {2021},
+ doi  =      {10.1145/3404835.3463240}}
+```
+
+For more details, please refer to [Booking.com challenge website](https://www.bookingchallenge.com/) and the [Booking.ai blog](https://booking.ai/).
+
 
 
 ## Attachments
